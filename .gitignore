@@ -31,3 +31,7 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+**/*.stories.json
+node_modules
+public/storybook
