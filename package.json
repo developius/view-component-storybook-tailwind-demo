@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "storybook": "start-storybook"
+    "storybook": "start-storybook",
+    "storybook:build": "rake view_component_storybook:write_stories_json && build-storybook -o public/storybook"
   },
   "devDependencies": {
     "@storybook/addon-controls": "^6.3.7",
